@@ -18,20 +18,20 @@
         <header>
             <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #3AA6A6">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="index.html" style="color: #5D2482">Futurama Form</a>
+                  <a class="navbar-brand" href="index.html" style="color: #222222">Futurama Form</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" style="color: #5D2482" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" style="color: #222222" href="index.html">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" style="color: #5D2482" href="#">About</a>
+                        <a class="nav-link" style="color: #222222" href="#">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" style="color: #5D2482" href="#">Contact</a>
+                        <a class="nav-link" style="color: #222222" href="#">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -44,27 +44,29 @@
             <form>
                 <div class="row">
                 <div class="mb-3 col-md-6">
-                    <label for="exampleInputFirstName" class="form-label" required style="color: #0A4D4D">First Name</label>
-                    <input type="firstName" class="form-control" id="exampleInputFirstName" aria-describedby="firstNameHelp">
+                    <label for="exampleInputFirstName" class="form-label" style="color: #0A4D4D">First Name</label>
+                    <input type="text" class="form-control" required id="exampleInputFirstName"  required aria-describedby="firstNameHelp">
                 </div>
                 <div class="mb-3 col-md-6">
-                    <label for="exampleInputLastName" class="form-label" required style="color: #0A4D4D">Last Name</label>
-                    <input type="lastName" class="form-control" id="exampleLastName" aria-describedby="lastNameHelp">
+                    <label for="exampleInputLastName" class="form-label" style="color: #0A4D4D">Last Name</label>
+                    <input type="text" class="form-control" required id="exampleInputLastName" aria-describedby="lastNameHelp">
                 </div>
             </div>
-                <div class="mb-3 w-50">
-                  <label for="exampleInputEmail1" class="form-label" required style="color: #0A4D4D">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="row">
+                <div class="mb-3 col-md-6">
+                  <label for="exampleInputEmail1" class="form-label"style="color: #0A4D4D">Email address</label>
+                  <input type="email" class="form-control" required id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-                <div class="mb-3 w-50">
-                  <label for="exampleInputPassword1" class="form-label" required style="color: #0A4D4D">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                <div class="mb-3 col-md-6">
+                  <label for="exampleInputPassword1" class="form-label" style="color: #0A4D4D">Password</label>
+                  <input type="password" class="form-control" required id="exampleInputPassword1">
                 </div>
+            </div>
                 <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                  <label class="form-check-label" for="exampleCheck1" style="color: #0A4D4D">Check if you have read and agreed to the <a href="">Terms and Conditions</a></label>
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1" required style="color: #0A4D4D">Check if you have read and agreed to the <a href="">Terms and Conditions</a></label>
                 </div>
-                <button type="submit" class="btn btn-primary btn-success">Submit</button>
+                <button type="submit" class="btn btn-success">Submit</button>
               </form>
               <div class="table-responsive">
               <table class="table table-striped table-hover table-bordered border-success">
@@ -73,7 +75,7 @@
                     <th scope="col">#</th>
                     <th scope="col">First Name</th>
                     <th scope="col">Last Name</th>
-                    <th scope="col">Have read the terms and conditions?</th>
+                    <th scope="col">Agreed to terms?</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -107,11 +109,11 @@
         </main>
         <footer class="container-fluid" style="background-color: #3AA6A6">
             <section class="row">
-                <p class="col" style="color: #5D2482"> &copy; Martin Reimer 2025</p>
-                <p class="col" style="color: #5D2482">Images: <a href="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/08/a-poster-for-the-revival-of-futurama.jpg">Top</a> and 
+                <p class="col" style="color: #222222"> &copy; Martin Reimer 2025</p>
+                <p class="col" style="color: #222222">Images: <a href="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/08/a-poster-for-the-revival-of-futurama.jpg">Top</a> and 
                 <a href="https://variety.com/wp-content/uploads/2023/11/Futurama-e1698862571665.jpg">Bottom</a>
                 </p>
-                <p class="col" style="color: #5D2482"> You can learn more about Futurama at this <a href="https://en.wikipedia.org/wiki/Futurama">link</a></p>
+                <p class="col" style="color: #222222"> You can learn more about Futurama at this <a href="https://en.wikipedia.org/wiki/Futurama">link</a></p>
             </section>
         </footer>
     </body>
